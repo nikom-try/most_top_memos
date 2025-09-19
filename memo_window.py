@@ -95,7 +95,17 @@ class MemoWindow:
     
     def open_new_memo(self):
         """新しいメモウィンドウを開く"""
-        MemoWindow(self.root)
+        # 現在のウィンドウの位置を取得
+        x = self.window.winfo_x()
+        y = self.window.winfo_y()
+        
+        # 新しいウィンドウを作成
+        new_memo = MemoWindow(self.root)
+        
+        # 新しいウィンドウの位置を設定（現在のウィンドウの少し右下に表示）
+        new_x = x + 20
+        new_y = y + 20
+        new_memo.window.geometry(f"+{new_x}+{new_y}")
     
     def close_window(self):
         """ウィンドウを閉じる"""
