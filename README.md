@@ -4,6 +4,8 @@
 
 このアプリケーションは、常に最前面に表示されるシンプルなメモ帳です。複数のメモを管理し、それぞれが独立したウィンドウで開かれます。
 
+![Screenshot](img/screenshot.png) 
+
 ## 機能
 
 - 常に最前面に表示されるウィンドウ
@@ -11,11 +13,7 @@
 - 各ウィンドウを閉じるボタン
 - ウィンドウを開くたびに異なるカラフルな背景色（見やすい薄い色）
 - 太字のフォントで文字を表示
-
-## スクリーンショット
-
-![Screenshot](img/screenshot.png) <!-- スクリーンショットを追加してください -->
-
+- 
 ## インストール
 
 1. Python 3.x をインストールしてください。
@@ -63,16 +61,7 @@
 
 このプロジェクトはMITライセンスの下で公開されています。詳細は[LICENSE](LICENSE)ファイルを参照してください。
 
-## コントリビューション
-
-コントリビューションは歓迎します。IssueやPull Requestをお気軽にどうぞ！
-
-1. フォークしてください。
-2. featureブランチを作成してください (`git checkout -b feature/AmazingFeature`)。
-3. 変更をコミットしてください (`git commit -m 'Add some AmazingFeature'`)。
-4. ブランチにプッシュしてください (`git push origin feature/AmazingFeature`)。
-5. Pull Requestを作成してください。
 
 ## 作者
 
-あなたの名前 - [your-username](https://github.com/your-username)
+[nikom-try](https://github.com/nikom-try)
